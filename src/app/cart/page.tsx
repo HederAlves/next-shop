@@ -12,7 +12,7 @@ export default function CartPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2">
                     {cart.map((item) => (
-                        <CartItem key={item.id} item={item} />
+                        <CartItem key={item.id} {...item} />
                     ))}
                 </div>
                 <div>
