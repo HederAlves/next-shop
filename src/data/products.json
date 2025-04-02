@@ -54,5 +54,285 @@
     "price": 2900.50,
     "description": "Suporta 5 pares",
     "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 9,
+    "name": "Bateria Acústica Gretsch",
+    "price": 8890.99,
+    "description": "Shell pack 22,10,12,16.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+  },
+  {
+    "id": 10,
+    "name": "Skate Iniciante",
+    "price": 419.99,
+    "description": "Skate montado",
+    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+  },
+  {
+    "id": 11,
+    "name": "Bateria Acústica Tama",
+    "price": 16329.99,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Skate Profissional",
+    "price": 890.90,
+    "description": "Produto importado",
+    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+  },
+  {
+    "id": 13,
+    "name": "Kit 7 Aparelhos",
+    "price": 39730.49,
+    "description": "Aparelhos para academia",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+  },
+  {
+    "id": 14,
+    "name": "Baquetas Vic Firth",
+    "price": 152.20,
+    "description": "7A hickory.",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 15,
+    "name": "Bag para Baquetas",
+    "price": 2900.50,
+    "description": "Suporta 5 pares",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 16,
+    "name": "Anilhas e Barras",
+    "price": 2249.60,
+    "description": "Kit anilhas e barras",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Bateria Acústica Tama",
+    "price": 16329.99,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Bateria Acústica Gretsch",
+    "price": 8890.99,
+    "description": "Shell pack 22,10,12,16.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+  },
+  {
+    "id": 19,
+    "name": "Skate Profissional",
+    "price": 890.90,
+    "description": "Produto importado",
+    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+  },
+  {
+    "id": 20,
+    "name": "Kit 7 Aparelhos",
+    "price": 39730.49,
+    "description": "Aparelhos para academia",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+  },
+  {
+    "id": 21,
+    "name": "Anilhas e Barras",
+    "price": 2249.60,
+    "description": "Kit anilhas e barras",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Skate Iniciante",
+    "price": 419.99,
+    "description": "Skate montado",
+    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+  },
+  {
+    "id": 23,
+    "name": "Baquetas Vic Firth",
+    "price": 152.20,
+    "description": "7A hickory.",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 24,
+    "name": "Bag para Baquetas",
+    "price": 2900.50,
+    "description": "Suporta 5 pares",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 25,
+    "name": "Bateria Acústica Tama",
+    "price": 16329.99,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Bateria Acústica Gretsch",
+    "price": 8890.99,
+    "description": "Shell pack 22,10,12,16.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+  },
+  {
+    "id": 27,
+    "name": "Skate Profissional",
+    "price": 890.90,
+    "description": "Produto importado",
+    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+  },
+  {
+    "id": 28,
+    "name": "Kit 7 Aparelhos",
+    "price": 39730.49,
+    "description": "Aparelhos para academia",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+  },
+  {
+    "id": 29,
+    "name": "Anilhas e Barras",
+    "price": 2249.60,
+    "description": "Kit anilhas e barras",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Baquetas Vic Firth",
+    "price": 152.20,
+    "description": "7A hickory.",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 31,
+    "name": "Skate Iniciante",
+    "price": 419.99,
+    "description": "Skate montado",
+    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+  },
+  {
+    "id": 32,
+    "name": "Bag para Baquetas",
+    "price": 2900.50,
+    "description": "Suporta 5 pares",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 33,
+    "name": "Bateria Acústica Gretsch",
+    "price": 8890.99,
+    "description": "Shell pack 22,10,12,16.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+  },
+  {
+    "id": 34,
+    "name": "Skate Iniciante",
+    "price": 419.99,
+    "description": "Skate montado",
+    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+  },
+  {
+    "id": 35,
+    "name": "Skate Profissional",
+    "price": 890.90,
+    "description": "Produto importado",
+    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+  },
+  {
+    "id": 36,
+    "name": "Kit 7 Aparelhos",
+    "price": 39730.49,
+    "description": "Aparelhos para academia",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+  },
+  {
+    "id": 37,
+    "name": "Bateria Acústica Tama",
+    "price": 16329.99,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Anilhas e Barras",
+    "price": 2249.60,
+    "description": "Kit anilhas e barras",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Baquetas Vic Firth",
+    "price": 152.20,
+    "description": "7A hickory.",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 40,
+    "name": "Bag para Baquetas",
+    "price": 2900.50,
+    "description": "Suporta 5 pares",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+  } ,
+  {
+    "id": 41,
+    "name": "Bateria Acústica Tama",
+    "price": 16329.99,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Bateria Acústica Gretsch",
+    "price": 8890.99,
+    "description": "Shell pack 22,10,12,16.",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+  },
+  {
+    "id": 43,
+    "name": "Skate Profissional",
+    "price": 890.90,
+    "description": "Produto importado",
+    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+  },
+  {
+    "id": 44,
+    "name": "Kit 7 Aparelhos",
+    "price": 39730.49,
+    "description": "Aparelhos para academia",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+  },
+  {
+    "id": 45,
+    "name": "Skate Iniciante",
+    "price": 419.99,
+    "description": "Skate montado",
+    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+  },
+  {
+    "id": 46,
+    "name": "Anilhas e Barras",
+    "price": 2249.60,
+    "description": "Kit anilhas e barras",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Baquetas Vic Firth",
+    "price": 152.20,
+    "description": "7A hickory.",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 48,
+    "name": "Bag para Baquetas",
+    "price": 2900.50,
+    "description": "Suporta 5 pares",
+    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
   }
 ]
