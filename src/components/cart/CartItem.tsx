@@ -1,4 +1,5 @@
 'use client';
+
 import { useCart } from "@/contexts/CartContext";
 import { ICartItem } from "@/model/interfaces";
 import Image from 'next/image';
@@ -16,8 +17,8 @@ const CartItem = (item: ICartItem) => {
                 className="object-cover"
             />
             <div className="flex-1">
-                <h3 className="text-lg font-semibold">{item.name}</h3>
-                <p className="text-sm">Preço: {item.price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</p>
+                <h3 className="text-xs sm:text-base font-semibold truncate w-24 sm:w-56">{item.name}</h3>
+                <span className="text-xs sm:text-sm text-green-500"><p className="hidden">Preço:</p>{item.price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</span>
                 <div className="flex items-center mt-2">
                     <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}>-</button>
                     <span className="mx-2">{item.quantity}</span>
@@ -26,7 +27,7 @@ const CartItem = (item: ICartItem) => {
             </div>
             <button
                 onClick={() => removeFromCart(item.id)}
-                className="text-red-500 text-sm"
+                className="text-red-500 text-xs sm:text-sm"
             >
                 Remover
             </button>
