@@ -1,4 +1,5 @@
 'use client'
+
 import CartItem from "@/components/cart/CartItem";
 import CartSummary from "@/components/cart/CartSummary";
 import { useCart } from "@/contexts/CartContext";
@@ -7,8 +8,8 @@ export default function CartPage() {
     const { cart } = useCart();
 
     return (
-        <div className="p-6">
-            <h1 className="text-2xl font-bold mb-4">Carrinho</h1>
+        <div className="px-6 pt-6 pb-2 h-full lg:h-screen bg-gray-100 dark:bg-[#0c0d0f] dark:text-white">
+            <h1 className="sm:text-lg font-bold mb-4">Meu Carrinho</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2">
                     {cart.map((item) => (
