@@ -1,10 +1,16 @@
 export interface IProduct {
-    image: string;
+    fees: number | null;
+    image: string[];
     id: number;
     name: string;
+    category: string;
     price: number;
+    discount: number | null;
     description: string;
+    about?: string;
+    assessment: number;
 }
+
 
 export interface ICartItem extends IProduct {
     quantity: number;

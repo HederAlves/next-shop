@@ -1,338 +1,774 @@
 [
-  {
-    "id": 1,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
-  },
-  {
-    "id": 3,
-    "name": "Skate Iniciante",
-    "price": 419.99,
-    "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
-  },
-  {
-    "id": 4,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
-  },
-  {
-    "id": 5,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
-  },
-  {
-    "id": 6,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 8,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 9,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
-  },
-  {
-    "id": 10,
-    "name": "Skate Iniciante",
-    "price": 419.99,
-    "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
-  },
-  {
-    "id": 11,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
-  },
-  {
-    "id": 13,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
-  },
-  {
-    "id": 14,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 15,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 16,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
-  },
-  {
-    "id": 19,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
-  },
-  {
-    "id": 20,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
-  },
-  {
-    "id": 21,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Skate Iniciante",
-    "price": 419.99,
-    "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
-  },
-  {
-    "id": 23,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 24,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 25,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
-  },
-  {
-    "id": 27,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
-  },
-  {
-    "id": 28,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
-  },
-  {
-    "id": 29,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 31,
-    "name": "Skate Iniciante",
-    "price": 419.99,
-    "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
-  },
-  {
-    "id": 32,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
-  },
-  {
-    "id": 33,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
-  },
+    {
+      "id": 1,
+      "name": "Bateria Acústica Tama",
+      "category": "instruments",
+      "fees": null,
+      "discount": 10,
+      "price": 20000.00,
+      "assessment": 5,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp"
+      ],
+      "about": "A bateria Tama é referência em qualidade e sonoridade, perfeita para músicos exigentes."
+    },
+    {
+      "id": 2,
+      "name": "Bateria Acústica Gretsch",
+      "category": "instruments",
+      "fees": 10,
+      "discount": 10,
+      "price": 15000.00,
+      "assessment": 5,
+      "description": "Shell pack 22,10,12,16.",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_697221-MLB20748304834_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_322321-MLB20748304841_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp"
+      ],
+      "about": "Bateria acústica Gretsch de alto desempenho, conhecida pelo som encorpado e durabilidade excepcional."
+    },
+    {
+      "id": 3,
+      "name": "Skate Iniciante",
+      "category": "sport",
+      "fees": null,
+      "discount": null,
+      "price": 500.00,
+      "assessment": 2,
+      "description": "Skate montado",
+      "image": [
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800"
+      ],
+      "about": "Este skate é perfeito para quem está começando, oferecendo estabilidade e facilidade no aprendizado."
+    },
+    {
+      "id": 4,
+      "name": "Skate Profissional",
+      "category": "sport",
+      "fees": null,
+      "discount": null,
+      "price": 1200.00,
+      "assessment": 4,
+      "description": "Skate completo produto importado",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+      ],
+      "about": "Indicado para skatistas avançados, este modelo profissional oferece melhor desempenho e resistência."
+    },
+    {
+      "id": 5,
+      "name": "Kit 7 Aparelhos",
+      "category": "fitness",
+      "fees": 10,
+      "discount": 50,
+      "price": 40000.00,
+      "assessment": 5,
+      "description": "Aparelhos para academia",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+      ],
+      "about": "Este kit de aparelhos é perfeito para equipar academias e garantir treinos completos e eficientes."
+    },
+    {
+      "id": 6,
+      "name": "Bateria Pro Fire",
+      "category": "instruments",
+      "fees": null,
+      "discount": 15,
+      "price": 1000.00,
+      "assessment": 4,
+      "description": "Shell pack 22,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_997551-MLU71497801983_092023-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_833583-MLU78040437332_082024-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_993159-MLU78040535686_082024-F.webp"
+      ],
+      "about": "Essa bateria oferece um som excepcional e é ideal para músicos que buscam qualidade e durabilidade."
+    },
+    {
+      "id": 7,
+      "name": "Baquetas Vic Firth",
+      "category": "instruments",
+      "fees": 10,
+      "discount": 25,
+      "price": 100.00,
+      "assessment": 4,
+      "description": "7A hickory.",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Baquetas de alta qualidade, ideais para bateristas que buscam precisão e durabilidade."
+    },
+    {
+      "id": 8,
+      "name": "Bag para Baquetas",
+      "category": "instruments",
+      "fees": 10,
+      "discount": null,
+      "price": 1000.00,
+      "assessment": 1,
+      "description": "Suporta 5 pares",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Uma excelente opção para armazenar e transportar suas baquetas com segurança."
+    },
+    {
+      "id": 9,
+      "name": "Bateria Acústica Gretsch",
+      "category": "instruments",
+      "fees": null,
+      "discount": 30,
+      "price": 8890.99,
+      "assessment": 5,
+      "description": "Shell pack 22,10,12,16.",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_974457-MLU75679982308_042024-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_642993-MLU71758800019_092023-F.webp"
+      ],
+      "about": "Com um som clássico e poderoso, essa bateria é uma escolha excelente para bateristas exigentes."
+    },
+    {
+      "id": 10,
+      "name": "Skate Iniciante",
+      "category": "sport",
+      "fees": 10,
+      "discount": 20,
+      "price": 419.99,
+      "assessment": 3,
+      "description": "Skate montado",
+      "image": [
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800"
+      ],
+      "about": "Este skate é ideal para iniciantes, oferecendo estabilidade e segurança para aprender as primeiras manobras."
+    },
+    {
+      "id": 11,
+      "name": "Bateria Acústica Tama",
+      "category": "instruments",
+      "fees": null,
+      "discount": 15,
+      "price": 16329.99,
+      "assessment": 5,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp"
+      ],
+      "about": "A bateria Tama é referência em qualidade e sonoridade, perfeita para músicos exigentes."
+    },
+    {
+      "id": 12,
+      "name": "Skate Profissional",
+      "category": "sport",
+      "fees": 10,
+      "discount": 25,
+      "price": 1500.00,
+      "assessment": 5,
+      "description": "Skate completo produto importado",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+      ],
+      "about": "Este skate profissional foi projetado para manobras avançadas e oferece um desempenho excepcional."
+    },
+    {
+      "id": 13,
+      "name": "Kit 7 Aparelhos",
+      "category": "fitness",
+      "fees": 10,
+      "discount": 45,
+      "price": 39730.49,
+      "assessment": 4,
+      "description": "Aparelhos para academia",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+      ],
+      "about": "Um conjunto completo de aparelhos para garantir treinos de alto nível em qualquer academia."
+    },
+    {
+      "id": 14,
+      "name": "Baquetas Vic Firth",
+      "category": "instruments",
+      "fees": null,
+      "discount": 15,
+      "price": 152.20,
+      "assessment": 3,
+      "description": "7A hickory.",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Baquetas Vic Firth são conhecidas pela resistência e qualidade, perfeitas para qualquer baterista."
+    },
+    {
+      "id": 15,
+      "name": "Bag para Baquetas",
+      "category": "instruments",
+      "fees": null,
+      "discount": 35,
+      "price": 2900.50,
+      "assessment": 5,
+      "description": "Suporta 5 pares",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Uma bag resistente e funcional para armazenar e transportar baquetas com segurança."
+    },
+    {
+      "id": 16,
+      "name": "Anilhas e Barras",
+      "category": "fitness",
+      "fees": null,
+      "discount": 15,
+      "price": 2249.60,
+      "assessment": 2,
+      "description": "Kit anilhas e barras",
+      "image": [
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+      ],
+      "about": "Kit essencial para treinos de musculação, oferecendo resistência e durabilidade."
+    },
+    {
+      "id": 17,
+      "name": "Bateria Acústica Gretsch",
+      "category": "instruments",
+      "fees": 10,
+      "discount": 35,
+      "price": 8890.99,
+      "assessment": 4,
+      "description": "Shell pack 22,10,12,16.",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_697221-MLB20748304834_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_322321-MLB20748304841_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp"
+      ],
+      "about": "Bateria acústica Gretsch de alto desempenho, ideal para músicos exigentes que buscam som de qualidade."
+    },
+    {
+      "id": 18,
+      "name": "Bateria Pro Fire",
+      "category": "instruments",
+      "fees": null,
+      "discount": 25,
+      "price": 2329.99,
+      "assessment": 4,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_833583-MLU78040437332_082024-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_997551-MLU71497801983_092023-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_993159-MLU78040535686_082024-F.webp"
+      ],
+      "about": "Essa bateria oferece um som excepcional e é ideal para músicos que buscam qualidade e durabilidade."
+    },
+    {
+      "id": 19,
+      "name": "Bateria Acústica Tama",
+      "category": "instruments",
+      "fees": 10,
+      "discount": null,
+      "price": 16329.99,
+      "assessment": 5,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp"
+      ],
+      "about": "Modelo de alto desempenho, a bateria Tama Starclassic é perfeita para apresentações ao vivo e gravações."
+    },
+    {
+      "id": 20,
+      "name": "Bateria Acústica Gretsch",
+      "category": "instruments",
+      "fees": null,
+      "discount": null,
+      "price": 8890.99,
+      "assessment": 4,
+      "description": "Shell pack 22,10,12,16.",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_642993-MLU71758800019_092023-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_974457-MLU75679982308_042024-F.webp"
+
+      ],
+      "about": "Uma bateria versátil e clássica, excelente para diferentes estilos musicais."
+    },
+    {
+      "id": 21,
+      "name": "Skate Iniciante",
+      "category": "sport",
+      "fees": 10,
+      "discount": null,
+      "price": 419.99,
+      "assessment": 5,
+      "description": "Skate montado",
+      "image": [
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800"
+      ],
+      "about": "O skate perfeito para quem está começando, proporcionando estabilidade e segurança."
+    },
+    {
+      "id": 22,
+      "name": "Skate Profissional",
+      "category": "sport",
+      "fees": null,
+      "discount": 20,
+      "price": 1450.00,
+      "assessment": 3,
+      "description": "Skate completo produto importado",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+      ],
+      "about": "Um skate profissional projetado para manobras avançadas e alto desempenho."
+    },
+    {
+      "id": 23,
+      "name": "Kit 7 Aparelhos",
+      "category": "fitness",
+      "fees": null,
+      "discount": null,
+      "price": 39730.49,
+      "assessment": 5,
+      "description": "Aparelhos para academia",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+      ],
+      "about": "Kit completo para academias, ideal para treinos de força e resistência."
+    },
+    {
+      "id": 24,
+      "name": "Anilhas e Barras",
+      "category": "fitness",
+      "fees": 10,
+      "discount": null,
+      "price": 2249.60,
+      "assessment": 5,
+      "description": "Kit anilhas e barras",
+      "image": [
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+      ],
+      "about": "Ideal para treinos de musculação, este kit é resistente e durável."
+    },
+    {
+      "id": 25,
+      "name": "Skate Iniciante",
+      "category": "sport",
+      "fees": null,
+      "discount": null,
+      "price": 419.99,
+      "assessment": 5,
+      "description": "Skate montado",
+      "image": [
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+        "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800"
+      ],
+      "about": "O skate ideal para iniciantes que buscam segurança e estabilidade para aprender manobras."
+    },
+    {
+      "id": 26,
+      "name": "Bateria Acústica Tama",
+      "category": "instruments",
+      "fees": null,
+      "discount": 20,
+      "price": 16329.99,
+      "assessment": 2,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp"
+      ],
+      "about": "Uma bateria de alto nível para músicos exigentes, oferecendo som rico e equilibrado."
+    },
+    {
+      "id": 27,
+      "name": "Skate Profissional",
+      "category": "sport",
+      "fees": 10,
+      "discount": null,
+      "price": 1450.00,
+      "assessment": 5,
+      "description": "Skate completo produto importado",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+      ],
+      "about": "Um skate importado de alta performance, ideal para manobras e competições."
+    },
+    {
+      "id": 28,
+      "name": "Kit 7 Aparelhos",
+      "category": "fitness",
+      "fees": null,
+      "discount": null,
+      "price": 39730.49,
+      "assessment": 3,
+      "description": "Aparelhos para academia",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+      ],
+      "about": "Conjunto completo para academias, perfeito para treinos de musculação e resistência."
+    },
+    {
+      "id": 29,
+      "name": "Baquetas Vic Firth",
+      "category": "instruments",
+      "fees": null,
+      "discount": null,
+      "price": 152.20,
+      "assessment": 5,
+      "description": "7A hickory.",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true",
+        "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true",
+        "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Baquetas de alta qualidade, feitas em madeira hickory, ideais para todos os estilos musicais."
+    },
+    {
+      "id": 30,
+      "name": "Bag para Baquetas",
+      "category": "instruments",
+      "fees": null,
+      "discount": 45,
+      "price": 2900.50,
+      "assessment": 5,
+      "description": "Suporta 5 pares",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true",
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true",
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Bolsa resistente para transporte seguro de baquetas, comportando até 5 pares."
+    },
+    {
+      "id": 31,
+      "name": "Anilhas e Barras",
+      "category": "fitness",
+      "fees": null,
+      "discount": 55,
+      "price": 2249.60,
+      "assessment": 1,
+      "description": "Kit anilhas e barras",
+      "image": [
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+      ],
+      "about": "Kit completo de anilhas e barras para treinamento de força, ideal para academias e home gym."
+    },
+    {
+      "id": 32,
+      "name": "Bateria Acústica Tama",
+      "category": "instruments",
+      "fees": null,
+      "discount": 20,
+      "price": 16329.99,
+      "assessment": 5,
+      "description": "Shell pack 22,8,10,12,14,16",
+      "image": [
+        "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp"
+      ],
+      "about": "Bateria acústica Tama Starclassic, referência mundial em qualidade e durabilidade."
+    },
+    {
+      "id": 33,
+      "name": "Bag para Baquetas",
+      "category": "instruments",
+      "fees": null,
+      "discount": 35,
+      "price": 2900.50,
+      "assessment": 5,
+      "description": "Suporta 5 pares",
+      "image": [
+        "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+      ],
+      "about": "Uma bag resistente e funcional para armazenar e transportar baquetas com segurança."
+    },
   {
     "id": 34,
-    "name": "Skate Iniciante",
-    "price": 419.99,
-    "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+    "name": "Bateria Acústica Tama",
+    "category": "instruments",
+    "fees": null,
+    "discount": 25,
+    "price": 16329.99,
+    "assessment": 4,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_639662-MLA83082183145_032025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_733492-MLA83082246891_032025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_814189-MLA82794466880_032025-F.webp"
+    ]
   },
   {
     "id": 35,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+    "name": "Bateria Acústica Gretsch",
+    "category": "instruments",
+    "fees": 10,
+    "discount": 35,
+    "price": 8890.99,
+    "assessment": 4,
+    "description": "Shell pack 22,10,12,16.",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_322321-MLB20748304841_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_697221-MLB20748304834_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp"
+      
+    ],
+    "about": "Bateria acústica Gretsch de alto desempenho, ideal para músicos exigentes que buscam som de qualidade."
   },
   {
     "id": 36,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+    "name": "Bateria Pro Fire",
+    "category": "instruments",
+    "fees": null,
+    "discount": 25,
+    "price": 1900.00,
+    "assessment": 4,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_833583-MLU78040437332_082024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_997551-MLU71497801983_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_993159-MLU78040535686_082024-F.webp"
+    ],
+    "about": "Essa bateria oferece um som excepcional e é ideal para músicos que buscam qualidade e durabilidade."
   },
   {
     "id": 37,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+    "name": "Bateria Acústica Gretsch",
+    "category": "instruments",
+    "fees": null,
+    "discount": 30,
+    "price": 8890.99,
+    "assessment": 5,
+    "description": "Shell pack 22,10,12,16.",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_974457-MLU75679982308_042024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_642993-MLU71758800019_092023-F.webp"
+      
+    ],
+    "about": "Com um som clássico e poderoso, essa bateria é uma escolha excelente para bateristas exigentes."
   },
   {
     "id": 38,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+    "name": "Skate Iniciante",
+    "category": "sport",
+    "fees": null,
+    "discount": null,
+    "price": 419.99,
+    "assessment": 5,
+    "description": "Skate montado",
+    "image": [
+            "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800",
+      "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+      "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800"
+    ],
+    "about": "Perfeito para iniciantes que querem aprender a andar de skate com conforto e segurança."
   },
   {
     "id": 39,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+    "name": "Skate Profissional",
+    "category": "sport",
+    "fees": 10,
+    "discount": null,
+    "price": 1450.00,
+    "assessment": 5,
+    "description": "Skate completo produto importado",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+    ],
+    "about": "Um skate importado de alta performance, ideal para manobras e competições."
   },
   {
     "id": 40,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
-  } ,
+    "name": "Kit 7 Aparelhos",
+    "category": "fitness",
+    "fees": 10,
+    "discount": 20,
+    "price": 39730.49,
+    "assessment": 3,
+    "description": "Aparelhos para academia",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+    ],
+    "about": "Conjunto de 7 aparelhos de musculação de alta qualidade para equipar academias profissionais e home gyms."
+  },
   {
     "id": 41,
-    "name": "Bateria Acústica Tama",
-    "price": 16329.99,
-    "description": "Shell pack 22,8,10,12,14,16",
-    "image": "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+    "name": "Anilhas e Barras",
+    "category": "fitness",
+    "fees": 10,
+    "discount": null,
+    "price": 2249.60,
+    "assessment": 5,
+    "description": "Kit anilhas e barras",
+    "image": [
+      "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+      "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg",
+      "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+    ],
+    "about": "Kit completo com anilhas e barras para treino de força e resistência, ideal para academias e uso doméstico."
   },
   {
     "id": 42,
-    "name": "Bateria Acústica Gretsch",
-    "price": 8890.99,
-    "description": "Shell pack 22,10,12,16.",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp"
+    "name": "Baquetas Vic Firth",
+    "category": "instruments",
+    "fees": 10,
+    "discount": null,
+    "price": 152.20,
+    "assessment": 5,
+    "description": "7A hickory.",
+    "image": [
+      "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true",
+      "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true",
+      "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+    ],
+    "about": "Baquetas Vic Firth 7A feitas de hickory, perfeitas para bateristas que buscam leveza e precisão."
   },
   {
     "id": 43,
-    "name": "Skate Profissional",
-    "price": 890.90,
-    "description": "Produto importado",
-    "image": "https://acdn.mitiendanube.com/stores/002/907/587/products/skate-pro-kit-love-girls-red-head1-6588a477e837e29c9b16797031644553-1024-1024.webp"
+    "name": "Bag para Baquetas",
+    "category": "instruments",
+    "fees": null,
+    "discount": 15,
+    "price": 2900.50,
+    "assessment": 2,
+    "description": "Suporta 5 pares",
+    "image": [
+      "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true",
+      "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true",
+      "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+    ],
+    "about": "Bolsa para baquetas, resistente e prática, comporta até 5 pares de baquetas com organização eficiente."
   },
   {
     "id": 44,
-    "name": "Kit 7 Aparelhos",
-    "price": 39730.49,
-    "description": "Aparelhos para academia",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_711758-MLB47136176143_082021-O.webp"
+    "name": "Bateria Acústica Gretsch",
+    "category": "instruments",
+    "fees": 10,
+    "discount": 20,
+    "price": 8890.99,
+    "assessment": 5,
+    "description": "Shell pack 22,10,12,16.",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_751321-MLB20748304838_062016-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_697221-MLB20748304834_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_322321-MLB20748304841_062016-F-bateria-gretsch-renown-maple-57-motor-city-black-cadillac-22.webp"
+    ],
+    "about": "Bateria acústica Gretsch de alto desempenho, conhecida pelo som encorpado e durabilidade excepcional."
   },
   {
     "id": 45,
     "name": "Skate Iniciante",
+    "category": "sport",
+    "fees": null,
+    "discount": 15,
     "price": 419.99,
+    "assessment": 3,
     "description": "Skate montado",
-    "image": "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800"
+    "image": [
+      "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-rodas-dz-291.webp?v=1683633779&width=1800",
+      "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-par-dz-291.webp?v=1683633779&width=1800",
+      "https://www.traxart.com.br/cdn/shop/files/skate-profissional-traxart-skull-frente-dz-291.webp?v=1683633779&width=1800"
+    ],
+    "about": "Skate ideal para iniciantes, proporcionando estabilidade e segurança para aprender manobras."
   },
   {
     "id": 46,
-    "name": "Anilhas e Barras",
-    "price": 2249.60,
-    "description": "Kit anilhas e barras",
-    "image": "https://images.tcdn.com.br/img/img_prod/1042861/kit_anilhas_emborrachadas_80kg_barras_macica_e_rosca_1575_1_a1ebb2dce472a801171589b5b1a00a8a.jpg"
+    "name": "Bateria Acústica Tama",
+    "category": "instruments",
+    "fees": null,
+    "discount": 15,
+    "price": 16329.99,
+    "assessment": 5,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": [
+      "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg",
+      "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg",
+      "https://cdnbatera.bateraclube.com.br/files/122/produto-bateria-tama-starclassic-maple-molten-satin-brown-burst-2210121416-shell-pack-1465.jpg"
+    ],
+    "about": "Bateria Tama Starclassic, amplamente usada por bateristas profissionais pela qualidade de som e resistência."
   },
   {
-    "id": 47,
-    "name": "Baquetas Vic Firth",
-    "price": 152.20,
-    "description": "7A hickory.",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157462-800-auto?v=637595597366000000&width=800&height=auto&aspect=true"
+    "id": 4,
+    "name": "Skate Profissional",
+    "category": "sport",
+    "fees": null,
+    "discount": null,
+    "price": 1200.00,
+    "assessment": 4,
+    "description": "Skate completo produto importado",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_876724-MLB81823238198_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_775691-MLB81822992308_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_839725-MLB81822972990_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_809347-MLB80962184219_112024-F-skate-profissional-element-85-roda-mini-logo-55mm.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_809709-MLB81823041306_012025-F-skate-profissional-element-85-roda-mini-logo-55mm.webp"
+    ],
+    "about": "Indicado para skatistas avançados, este modelo profissional oferece melhor desempenho e resistência."
   },
   {
     "id": 48,
-    "name": "Bag para Baquetas",
-    "price": 2900.50,
-    "description": "Suporta 5 pares",
-    "image": "https://izzomusical.vtexassets.com/arquivos/ids/157148-800-auto?v=637592845954430000&width=800&height=auto&aspect=true"
+    "name": "Bateria Pro Fire",
+    "category": "instruments",
+    "fees": 10,
+    "discount": null,
+    "price": 3000.00,
+    "assessment": 5,
+    "description": "Shell pack 22,8,10,12,14,16",
+    "image": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_997551-MLU71497801983_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_833583-MLU78040437332_082024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_993159-MLU78040535686_082024-F.webp"
+    ],
+    "about": "Essa bateria oferece um som excepcional e é ideal para músicos que buscam qualidade e durabilidade."
   }
 ]
