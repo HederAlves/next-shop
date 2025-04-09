@@ -4,6 +4,7 @@ import { useCart } from "@/contexts/CartContext";
 import { IProduct } from "@/model/interfaces";
 import Image from 'next/image';
 import Link from "next/link";
+import { Button } from "../layout/Button";
 
 const ProductCard = ({ product }: { product: IProduct }) => {
     const { addToCart } = useCart();
@@ -11,7 +12,7 @@ const ProductCard = ({ product }: { product: IProduct }) => {
     const discountedPrice = product.price * (1 - (product.discount ?? 0) / 100);
 
     return (
-        <div className="rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out bg-white dark:bg-black dark:text-white flex flex-col justify-between">
+        <div className="rounded-lg h-full shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out bg-white dark:bg-black dark:text-white flex flex-col justify-between">
             <Link href={`/${product.id}`} className="block">
                 <Image
                     src={product.image[0]}
@@ -44,21 +45,12 @@ const ProductCard = ({ product }: { product: IProduct }) => {
                     )}
                 </div>
                 <div className="mt-4">
-                    <button
-                        onClick={() => addToCart(product)}
-                        className="
-                        bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500
-                        dark:from-black dark:via-blue-900 dark:to-black
-                        hover:from-blue-900 hover:via-blue-900 hover:to-blue-900
-                        dark:hover:from-blue-900 dark:hover:via-blue-900 dark:hover:to-blue-900
-                        focus:outline-none w-full text-white py-2 px-4 rounded-md"
-                    >
+                    <Button variant="primary" onClick={() => addToCart(product)}>
                         Adicionar ao Carrinho
-                    </button>
+                    </Button>
                 </div>
             </div>
         </div>
-
     );
 };
 
