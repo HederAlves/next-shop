@@ -9,7 +9,7 @@ interface CategorySelectProps {
 const CategorySelect: React.FC<CategorySelectProps> = ({ categories, selected, onChange }) => {
     return (
         <select
-            className="border p-1 rounded text-[10px] sm:text-xs text-black dark:bg-black dark:text-white"
+            className="border p-1 mt-[2px] rounded text-[10px] sm:text-xs text-black dark:bg-black dark:text-white"
             value={selected}
             onChange={(e) => onChange(e.target.value)}
         >
