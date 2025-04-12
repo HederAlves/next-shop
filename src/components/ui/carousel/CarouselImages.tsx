@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useMediaQuery } from '@/hooks/useMediaQuery'
 import Image from "next/image";
 import Zoom from "./Zoom";
 
@@ -9,31 +10,13 @@ interface CarouselProps {
 }
 
 const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
+    const isMobile = useMediaQuery('(max-width: 768px)');
     const [currentIndex, setCurrentIndex] = useState(0);
     const [thumbnailIndex, setThumbnailIndex] = useState(0);
-    const [isMobile, setIsMobile] = useState(false);
-    const [spacing, setSpacing] = useState(-48); // espaçamento dinâmico
 
-    const visibleThumbs = 2; // Número fixo de thumbs visíveis
-    const thumbSize = 130;  // Tamanho de cada thumb
-
-    useEffect(() => {
-        const updateLayout = () => {
-            const isMobileView = window.innerWidth < 768;
-            setIsMobile(isMobileView);
-
-            // Define o espaçamento conforme a tela
-            if (isMobileView) {
-                setSpacing(-36); // gap menor para mobile
-            } else {
-                setSpacing(8); // gap maior para desktop
-            }
-        };
-
-        updateLayout();
-        window.addEventListener("resize", updateLayout);
-        return () => window.removeEventListener("resize", updateLayout);
-    }, []);
+    const visibleThumbs = 2;
+    const thumbSize = 130;
+    const spacing = isMobile ? -36 : 8;
 
     const maxIndex = Math.max(images.length - visibleThumbs, 0);
 
@@ -52,7 +35,6 @@ const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
     return (
         <div className="relative pb-4">
             <div className="hs-carousel flex flex-col md:flex-row gap-2">
-                {/* Imagem Principal */}
                 <div className="md:order-2 relative min-w-[100%] md:min-w-[77%] lg:min-w-[60%] max-w-[52vw] sm:max-w-[40vw] xl:min-w-[42vw] min-h-[140px] max-h-[140px] md:min-h-[405px] bg-white rounded-lg flex justify-center items-center">
                     <Zoom
                         src={images[currentIndex]}
@@ -60,9 +42,7 @@ const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
                     />
                 </div>
 
-                {/* Miniaturas */}
                 <div className="md:order-1 flex-none relative w-full md:w-[140px]">
-                    {/* Botão ANTERIOR */}
                     {images.length > visibleThumbs && (
                         <button
                             onClick={prevThumbnails}
@@ -74,7 +54,6 @@ const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
                         </button>
                     )}
 
-                    {/* Área visível de thumbs */}
                     <div className="overflow-hidden md:h-[420px] h-[80px]">
                         <div
                             className="flex md:flex-col transition-transform duration-300 gap-2 pb-20"
@@ -106,7 +85,6 @@ const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
                         </div>
                     </div>
 
-                    {/* Botão PRÓXIMO */}
                     {images.length > visibleThumbs && (
                         <button
                             onClick={nextThumbnails}
