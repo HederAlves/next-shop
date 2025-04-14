@@ -1,15 +1,19 @@
 'use client';
 
-import { useCart } from "@/contexts/CartContext";
-import { IProduct } from "@/model/interfaces";
 import Image from 'next/image';
 import Link from "next/link";
-import { Button } from "../layout/Button";
+import { useCart } from "@/contexts/CartContext";
+import { Product } from "@/models/interfaces";
+import { calculateDiscountedPrice } from "@/utils/priceUtils";
+import { Button } from "@/components/ui/button/Button";
 
-const ProductCard = ({ product }: { product: IProduct }) => {
+const ProductCard = ({ product }: { product: Product }) => {
     const { addToCart } = useCart();
-    const hasDiscount = product.discount !== null && product.discount > 0;
-    const discountedPrice = product.price * (1 - (product.discount ?? 0) / 100);
+
+    const { hasDiscount, finalPrice: discountedPrice, discountPercent } = calculateDiscountedPrice(
+        product.price,
+        product.discount
+    );
 
     return (
         <div className="rounded-lg h-full shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out bg-white dark:bg-black dark:text-white flex flex-col justify-between">
@@ -40,7 +44,7 @@ const ProductCard = ({ product }: { product: IProduct }) => {
                     </span>
                     {hasDiscount && (
                         <span className="text-sm text-red-500 ml-2">
-                            -{product.discount}%
+                            -{discountPercent}%
                         </span>
                     )}
                 </div>
@@ -53,5 +57,6 @@ const ProductCard = ({ product }: { product: IProduct }) => {
         </div>
     );
 };
+
 
 export default ProductCard;
