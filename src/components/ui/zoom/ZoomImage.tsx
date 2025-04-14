@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 
-const ImageZoom = ({ src, alt }: { src: string; alt: string }) => {
+const ZoomImage = ({ src, alt }: { src: string; alt: string }) => {
     const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0, visible: false });
     const [isModalOpen, setIsModalOpen] = useState(false);
     const imageRef = useRef<HTMLDivElement>(null);
@@ -38,7 +38,7 @@ const ImageZoom = ({ src, alt }: { src: string; alt: string }) => {
 
                 {zoomPosition.visible && (
                     <div
-                        className="fixed -top-4 lg:w-[37vw] lg:h-[452px] lg:pb-8 lg:left-[52vw] xl:left-[770px] z-[9999] lg:min-w-[38.5vw] xl:min-w-[500px] xl:h-[453px] xl:shadow-lg pointer-events-none hidden lg:block p-4 bg-white dark:bg-black rounded-lg"
+                        className="fixed top-[105.5px] lg:w-[37vw] lg:h-[452px] lg:pb-8 lg:left-[55.8vw] xl:left-[810px] z-[9999] lg:min-w-[40vw] xl:min-w-[516px] xl:h-[453px] xl:shadow-lg pointer-events-none hidden lg:block p-4 bg-white dark:bg-black rounded-lg"
                     >
                         <div
                             className="w-full h-full bg-no-repeat"
@@ -55,13 +55,13 @@ const ImageZoom = ({ src, alt }: { src: string; alt: string }) => {
 
             {isModalOpen && (
                 <div
-                    className="fixed inset-0 sm:h-90 -mt-[16px] -md:mt-[20px] xl:mt-[1px] z-[10000] lg:min-w-[55.2vw] lg:max-w-[54.8vw] lg:-ml-[16px] flex items-center justify-center"
+                    className="absolute inset-0 sm:h-90 mt-[87px] md:mt-[20px] xl:mt-[24px] xl:w-[760px] xl:-ml-[166px] z-[10000] lg:min-w-[150px] lg:w-[200px] lg:ml-[35px] flex items-center justify-center"
                     onClick={closeModal}
                 >
                     <img
                         src={src}
                         alt={alt}
-                        className="w-full lg:min-w-[580px] lg:mr-6 xl:mr-0 max-h-[240px] min-h-[240px] md:max-h-[450px] md:min-h-[450px] lg:max-h-[453px] lg:min-h-[453px] xl:max-h-[500px] xl:min-h-[500px] rounded-lg"
+                        className="w-full lg:min-w-[570px] lg:mr-6 xl:mr-0 max-h-[240px] min-h-[240px] md:max-h-[400px] md:min-h-[400px] lg:max-h-[453px] lg:min-h-[453px] xl:max-h-[500px] xl:min-h-[500px] rounded-lg"
                     />
                 </div>
             )}
@@ -69,4 +69,4 @@ const ImageZoom = ({ src, alt }: { src: string; alt: string }) => {
     );
 };
 
-export default ImageZoom;
+export default ZoomImage;
