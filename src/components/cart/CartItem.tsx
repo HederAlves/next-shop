@@ -1,47 +1,46 @@
-'use client';
-
-import { useCart } from "@/contexts/CartContext";
-import { ICartItem } from "@/model/interfaces";
 import Image from 'next/image';
+import Link from "next/link";
+import { useCart } from "@/contexts/CartContext";
+import { CartItemData } from "@/models/interfaces";
+import { calculateDiscountedPrice, formatPrice } from "@/utils/priceUtils";
 
-const CartItem = (item: ICartItem) => {
+const CartItem = (item: CartItemData) => {
     const { updateQuantity, removeFromCart } = useCart();
 
-    // Cálculo do preço com desconto
-    const hasDiscount = item.discount !== null && item.discount > 0;
-    const discountedPrice = item.price * (1 - (item.discount ?? 0) / 100);
+    const {
+        hasDiscount,
+        finalPrice: discountedPrice
+    } = calculateDiscountedPrice(item.price, item.discount);
 
-    // Cálculo do preço total com base na quantidade
     const totalPrice = item.price * item.quantity;
     const totalDiscountedPrice = discountedPrice * item.quantity;
 
     return (
         <div className="flex items-center space-x-4 p-2 border-b">
-            <Image
-                src={item.image[0]}
-                alt={item.name}
-                width={64}
-                height={64}
-                className="object-cover"
-            />
+            <Link href={`/product/${item.id}`} className="block">
+                <Image
+                    src={item.image[0]}
+                    alt={item.name}
+                    width={64}
+                    height={64}
+                    className="object-cover"
+                />
+            </Link>
             <div className="flex-1">
                 <h3 className="text-xs sm:text-base font-semibold truncate w-24 sm:w-56">
                     {item.name}
                 </h3>
 
-                {/* Exibir o preço antigo multiplicado pela quantidade se houver desconto */}
                 {hasDiscount && (
                     <span className="text-xs sm:text-sm text-gray-500 line-through block">
-                        {totalPrice.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+                        {formatPrice(totalPrice)}
                     </span>
                 )}
 
-                {/* Exibir o preço novo multiplicado pela quantidade */}
                 <span className="text-xs sm:text-sm text-green-500">
-                    {totalDiscountedPrice.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
+                    {formatPrice(totalDiscountedPrice)}
                 </span>
 
-                {/* Exibir a porcentagem de desconto */}
                 {hasDiscount && (
                     <span className="text-xs sm:text-sm text-red-500 ml-2">
                         -{item.discount}%
@@ -49,11 +48,18 @@ const CartItem = (item: ICartItem) => {
                 )}
 
                 <div className="flex items-center mt-2">
-                    <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}>
+                    <button
+                        onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                        disabled={item.quantity === 1}
+                        className="px-2 text-lg font-bold disabled:opacity-50"
+                    >
                         -
                     </button>
                     <span className="mx-2">{item.quantity}</span>
-                    <button onClick={() => updateQuantity(item.id, item.quantity + 1)}>
+                    <button
+                        onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                        className="px-2 text-lg font-bold"
+                    >
                         +
                     </button>
                 </div>
