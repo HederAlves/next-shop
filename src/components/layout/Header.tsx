@@ -1,9 +1,10 @@
 'use client'
 
-import { useCart } from '@/contexts/CartContext';
 import Link from 'next/link';
 import { FiShoppingCart } from 'react-icons/fi';
-import ThemeToggle from './ThemeToggle';
+import { useCart } from '@/contexts/CartContext';
+import ThemeToggle from '@/components/ui/button/ThemeToggle';
+import ProductSearchInput from '@/components/ui/filter/SearchInput';
 
 const Header = () => {
     const { cart } = useCart();
@@ -11,15 +12,15 @@ const Header = () => {
     const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
     return (
-        <header className="flex items-center justify-between p-4 shadow-md 
+        <header className="flex flex-col sm:flex-row items-center justify-between gap-2 p-4 shadow-md 
             bg-gradient-to-r
-          from-black via-green-500 to-green-400 
-          dark:from-black dark:via-green-900 dark:to-black dark:text-white">
+            from-black via-green-500 to-green-400 
+            dark:from-black dark:via-green-900 dark:to-black dark:text-white">
             <Link href="/" passHref>
                 <h1 className="text-2xl font-bold cursor-pointer text-white">Next-Shop</h1>
             </Link>
-
-            <div className=' flex gap-2 sm:gap-10 items-center mr-2'>
+            <ProductSearchInput />
+            <div className='flex justify-around w-full sm:w-auto sm:gap-2 md:gap-8 items-center sm:mr-2'>
                 <ThemeToggle />
                 <Link href="/cart" passHref>
                     <div className="relative">
