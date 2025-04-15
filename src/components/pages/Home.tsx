@@ -22,11 +22,22 @@ const Home = () => {
             .filter(p => !searchTerm || p.name.toLowerCase().includes(searchTerm));
     }, [selectedCategory, searchTerm]);
 
-    const indexOfLastProduct = currentPage * itemsToShow;
-    const indexOfFirstProduct = indexOfLastProduct - itemsToShow;
-    const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
-    const totalPages = Math.ceil(filteredProducts.length / itemsToShow);
-    const totalItems = filteredProducts.length;
+    const { currentProducts, adjustedPage, totalPages, totalItems } = useMemo(() => {
+        const totalItems = filteredProducts.length;
+        const totalPages = Math.ceil(totalItems / itemsToShow);
+        const adjustedPage = Math.min(currentPage, totalPages || 1);
+
+        const indexOfLastProduct = adjustedPage * itemsToShow;
+        const indexOfFirstProduct = indexOfLastProduct - itemsToShow;
+        const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+
+        return {
+            currentProducts,
+            adjustedPage,
+            totalPages,
+            totalItems
+        };
+    }, [filteredProducts, currentPage, itemsToShow]);
 
     const handleSelect = (value: number) => {
         setItemsToShow(value);
@@ -34,9 +45,7 @@ const Home = () => {
     };
 
     const handlePageChange = (page: number) => {
-        if (page >= 1 && page <= totalPages) {
-            setCurrentPage(page);
-        }
+        setCurrentPage(page);
     };
 
     return (
@@ -55,12 +64,12 @@ const Home = () => {
 
             <ProductList
                 products={currentProducts}
-                currentPage={currentPage}
+                currentPage={adjustedPage}
                 totalPages={totalPages}
                 itemsPerPage={itemsToShow}
                 totalItems={totalItems}
-                indexOfFirstProduct={indexOfFirstProduct}
-                indexOfLastProduct={indexOfLastProduct}
+                indexOfFirstProduct={(adjustedPage - 1) * itemsToShow}
+                indexOfLastProduct={adjustedPage * itemsToShow}
                 onPageChange={handlePageChange}
             />
         </div>
