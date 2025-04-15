@@ -5,10 +5,13 @@ interface PaginationProps {
     currentPage: number;
     totalPages: number;
     itemsPerPage: number;
+    totalItems: number;
+    indexOfFirstProduct: number;
+    indexOfLastProduct: number;
     onPageChange: (page: number) => void;
 }
 
-const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, itemsPerPage, onPageChange }) => {
+const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, totalItems, indexOfFirstProduct, indexOfLastProduct, onPageChange }) => {
     const handlePrevious = () => {
         if (currentPage > 1) onPageChange(currentPage - 1);
     };
@@ -33,14 +36,12 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, itemsP
                 </Button>
             </div>
             <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
-                <div>
-                    <p className="text-sm pl-1 flex gap-1 text-gray-700 dark:text-green-600">
-                        Mostrando do <span className="font-medium">{(currentPage - 1) * itemsPerPage + 1}</span>ao{' '}
-                        <span className="font-medium">{Math.min(currentPage * itemsPerPage, totalPages * itemsPerPage)}</span> de{' '}
-                        <span className="font-medium">{totalPages * itemsPerPage}</span> produtos
-                    </p>
+                <p className="text-sm pl-1 flex gap-1 text-gray-700 dark:text-green-600">
+                    Mostrando do <span className="font-medium">{indexOfFirstProduct + 1}</span> ao{' '}
+                    <span className="font-medium">{Math.min(indexOfLastProduct, totalItems)}</span> de{' '}
+                    <span className="font-medium">{totalItems}</span> produtos
+                </p>
 
-                </div>
                 <div>
                     <nav className="isolate inline-flex -space-x-px rounded-md shadow-xs dark:hover:text-black" aria-label="Pagination">
                         <button
