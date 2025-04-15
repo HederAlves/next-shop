@@ -17,7 +17,7 @@ const CartItem = (item: CartItemData) => {
 
     return (
         <div className="flex items-center space-x-4 p-2 border-b">
-            <Link href={`/product/${item.id}`} className="block">
+            <Link href={`/${item.id}`} className="block">
                 <Image
                     src={item.image[0]}
                     alt={item.name}
