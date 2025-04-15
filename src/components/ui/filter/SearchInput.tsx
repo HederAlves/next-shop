@@ -8,11 +8,15 @@ const SearchInput = () => {
     const router = useRouter();
 
     const filteredSuggestions = searchTerm.trim()
-        ? productsData
-            .filter((product) =>
-                product.name.toLowerCase().includes(searchTerm.toLowerCase())
-            )
-            .slice(0, 4)
+        ? Array.from(
+            new Map(
+                productsData
+                    .filter((product) =>
+                        product.name.toLowerCase().includes(searchTerm.toLowerCase())
+                    )
+                    .map((product) => [product.name, product])
+            ).values()
+        ).slice(0, 4)
         : [];
 
     const handleSearch = () => {
@@ -60,7 +64,7 @@ const SearchInput = () => {
             </div>
 
             {showSuggestions && filteredSuggestions.length > 0 && (
-                <ul className="absolute left-0 right-0 bg-white dark:bg-black text-black dark:text-white border border-gray-300 mt-1 rounded-md shadow-lg z-50 max-h-60 overflow-y-auto">
+                <ul className="absolute left-0 right-0 bg-white dark:bg-black text-black dark:text-white border border-gray-300 mt-1 rounded-md shadow-lg z-[800] max-h-60 overflow-y-auto">
                     {filteredSuggestions.map((product) => (
                         <li
                             key={product.id}
