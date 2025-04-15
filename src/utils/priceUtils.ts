@@ -1,4 +1,4 @@
-import { ICartItem } from "@/model/interfaces";
+import { CartItemData } from "@/models/interfaces";
 
 // Calculates the final value with discount.
 export function calculateDiscountedPrice(price: number, discount: number) {
@@ -50,7 +50,7 @@ export function getInstallmentInfo(
 }
 
 // Utility for cart totals.
-export function calculateCartTotals(cart: ICartItem[]) {
+export function calculateCartTotals(cart: CartItemData[]) {
     return cart.reduce(
         (totals, item) => {
             const { finalPrice } = calculateDiscountedPrice(item.price, item.discount);

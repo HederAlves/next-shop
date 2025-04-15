@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useMediaQuery } from '@/hooks/useMediaQuery'
 import Image from "next/image";
-import Zoom from "./Zoom";
+import { useMediaQuery } from '@/hooks/useMediaQuery'
+import ZoomImage from "@/components/ui/zoom/ZoomImage";
 
 interface CarouselProps {
     images: string[];
@@ -36,7 +36,7 @@ const CarouselImages: React.FC<CarouselProps> = ({ images }) => {
         <div className="relative pb-4">
             <div className="hs-carousel flex flex-col md:flex-row gap-2">
                 <div className="md:order-2 relative min-w-[100%] md:min-w-[77%] lg:min-w-[60%] max-w-[52vw] sm:max-w-[40vw] xl:min-w-[42vw] min-h-[140px] max-h-[140px] md:min-h-[405px] bg-white rounded-lg flex justify-center items-center">
-                    <Zoom
+                    <ZoomImage
                         src={images[currentIndex]}
                         alt={`Slide ${currentIndex + 1}`}
                     />
