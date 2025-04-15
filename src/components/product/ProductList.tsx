@@ -2,9 +2,10 @@
 
 import ProductCard from '@/components/product/ProductCard';
 import Pagination from '@/components/ui/navegation/Pagination';
+import { Product } from '@/models/interfaces';
 
 interface ProductListProps {
-    products: any[];
+    products: Product[];
     currentPage: number;
     totalPages: number;
     itemsPerPage: number;
