@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useRef } from "react";
 
-const ZoomImage = ({ src, alt }: { src: string; alt: string }) => {
+const ImageZoom = ({ src, alt }: { src: string; alt: string }) => {
     const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0, visible: false });
     const [isModalOpen, setIsModalOpen] = useState(false);
     const imageRef = useRef<HTMLDivElement>(null);
@@ -33,7 +34,13 @@ const ZoomImage = ({ src, alt }: { src: string; alt: string }) => {
                     onMouseLeave={handleMouseLeave}
                     onClick={openModal}
                 >
-                    <img src={src} alt={alt} className="h-[300px] md:h-[400px] lg:h-[404px] max-w-[200px] sm:max-w-[555px] md:max-w-[56vw] max-h-[140px] lg:max-w-[380px] xl:max-w-[574px] md:max-h-[430px]" />
+                    <Image
+                        width={600}
+                        height={500}
+                        sizes="(max-width: 640px) 100vw, (width: 1024px) 50vw, 33vw"
+                        src={src}
+                        alt={alt}
+                        className="h-[300px] md:h-[400px] lg:h-[404px] max-w-[200px] sm:max-w-[555px] md:max-w-[56vw] max-h-[140px] lg:max-w-[380px] xl:max-w-[574px] md:max-h-[430px]" />
                 </div>
 
                 {zoomPosition.visible && (
@@ -50,18 +57,20 @@ const ZoomImage = ({ src, alt }: { src: string; alt: string }) => {
                         />
                     </div>
                 )}
-
             </div>
 
             {isModalOpen && (
                 <div
-                    className="absolute inset-0 sm:h-90 mt-[87px] md:mt-[20px] xl:mt-[24px] xl:w-[760px] xl:-ml-[166px] z-[10000] lg:min-w-[150px] lg:w-[200px] lg:ml-[35px] flex items-center justify-center"
+                    className="absolute inset-0 sm:h-90 mt-[87px] md:mt-[12px] lg:mt-[16px] xl:mt-[24px] xl:w-[760px] xl:-ml-[166px] z-[10000] lg:min-w-[150px] lg:w-[200px] lg:ml-[35px] flex items-center justify-center"
                     onClick={closeModal}
                 >
-                    <img
+                    <Image
+                        width={600}
+                        height={500}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         src={src}
                         alt={alt}
-                        className="w-full lg:min-w-[570px] lg:mr-6 xl:mr-0 max-h-[240px] min-h-[240px] md:max-h-[400px] md:min-h-[400px] lg:max-h-[453px] lg:min-h-[453px] xl:max-h-[500px] xl:min-h-[500px] rounded-lg"
+                        className="w-full lg:min-w-[570px] lg:mr-7 xl:mr-0 max-h-[240px] min-h-[240px] md:max-h-[400px] md:min-h-[440px] lg:max-h-[454px] lg:min-h-[454px] xl:max-h-[500px] xl:min-h-[500px] rounded-lg"
                     />
                 </div>
             )}
@@ -69,4 +78,4 @@ const ZoomImage = ({ src, alt }: { src: string; alt: string }) => {
     );
 };
 
-export default ZoomImage;
+export default ImageZoom;
