@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Next Shop
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<img src="https://github.com/user-attachments/assets/b6c138b5-41f9-4e05-963d-19bcfda5ef2c" width="200" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div data-badges>
+  <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+</div>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next Shop is an e-commerce platform for individuals and businesses to sell their products to other people or companies. It acts as an intermediary between buyers and sellers. The platform also offers several advantages for both sellers and buyers. Next Shop, for example, offers credit options with up to 12 monthly installments. Another highlight is the deals — every month, Next Shop brings new promotions!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The attention to user experience is evident at Next Shop, with simple and intuitive screens that provide everything the user needs. Products sold on the platform have dedicated pages, including star-based ratings and customized pricing — no need to do the math, just check if the price fits your budget. A unique feature is the position-based zoom and image enlargement, helping buyers get a better view of the products.
 
-## Learn More
+The e-commerce also includes excellent filters, so users don't waste time and can quickly find what they're looking for. Next Shop is designed to work seamlessly on all screen sizes, maintaining navigation quality and adapting to user preferences on different devices. To top it off, it offers both dark and light themes, enhancing the user experience even further.
 
-To learn more about Next.js, take a look at the following resources:
+## 🖥️ Run Project 🖥️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### requirements:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Node.js](https://nodejs.org/pt) installed
 
-## Deploy on Vercel
+### Execution:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone this repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```HTTPS
+   git clone https://github.com/HederAlves/next-shop.git
+   ```
+
+2. Access the project directory:
+
+   ```sh
+   cd next-shop
+   ```
+
+3. Open the project in the text editor:
+
+- for vs code use
+  ```sh
+  code .
+  ```
+
+4.  Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+5.  Ambient variable settings:
+
+         It will not be necessary, as at the moment the data is mocked in a json file in data.
+
+6.  Start the server (Next.js):
+
+    ```sh
+    npm run dev
+    ```
+
+7.  Access the project at: [http://localhost:3000](http://localhost:3000).
+
+## 🗒️ Features 🗒️
+
+⭐ Product Ratings and Details
+
+- Exclusive page for each product
+- Product rating system with star levels
+- Positional zoom and image enlargement for product previews
+
+🔍 Usability and User Experience
+
+- Simple and intuitive interface
+- Advanced filters for product search
+- Responsive layout (compatible with large and small screens)
+- Support for light and dark themes
+
+💳 Payments and Offers
+
+- Credit system with installment plans of up to 12 payments
+- Management of monthly updated deals and promotions
+- Customized pricing per product
+
+##
+
+  <img src="https://github.com/user-attachments/assets/d9c26de5-15dd-4975-8e92-e64bcb473829"/>
+  <img src="https://github.com/user-attachments/assets/de0b7d06-263f-409c-9785-088cd118b213"/>
+  <img src="https://github.com/user-attachments/assets/b259d5aa-7648-4285-806e-9307a5ddac5e"/>
+  <img src="https://github.com/user-attachments/assets/de318e7e-f491-497c-bd8e-daf06f4c1d81"/>
+
+## 💎 Useful links 💎
+
+- [Next.js](https://nextjs.org/docs)
+- [React.js](https://react.dev/learn)
+- [TypeScript](https://www.typescriptlang.org/docs)
+- [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)
